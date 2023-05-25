@@ -1,8 +1,6 @@
 pipeline {
     agent {
-        node{
-            label 'defaultAgent'          
-        }
+        label 'defaultAgent' 
     }
 
     stages {
