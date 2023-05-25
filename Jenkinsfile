@@ -9,5 +9,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('Information'){
+            steps{
+                echo $NODE_NAME
+                echo $NODE_LABELS
+            }
+        }
     }
 }
