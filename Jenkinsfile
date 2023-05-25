@@ -11,8 +11,8 @@ pipeline {
         }
         stage('Information'){
             steps{
-                echo $NODE_NAME
-                echo $NODE_LABELS
+                echo ${NODE_NAME}
+                echo ${NODE_LABELS}
             }
         }
     }
